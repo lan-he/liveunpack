@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">LiveUnpack · 拾帧</title>
+  <desc id="desc">靛蓝底色上叠放的照片与视频画框，薄荷绿播放符号从照片中向右上方移出，代表提取原始动态瞬间。</desc>
+  <defs>
+    <linearGradient id="background" x1="24" y1="12" x2="236" y2="256" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4969F0"/>
+      <stop offset="1" stop-color="#283BB4"/>
+    </linearGradient>
+    <linearGradient id="video" x1="98" y1="57" x2="204" y2="167" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D7FFF0"/>
+      <stop offset="1" stop-color="#80E9CE"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="58" fill="url(#background)"/>
+  <!-- The original photo stays in place while the video frame moves out. -->
+  <rect x="49" y="89" width="118" height="112" rx="23" stroke="#FFFFFF" stroke-opacity=".48" stroke-width="9"/>
+  <path d="M53 175L82 146C86 142 92 142 96 146L117 167" stroke="#FFFFFF" stroke-opacity=".48" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="79" cy="119" r="7" fill="#FFFFFF" fill-opacity=".7"/>
+  <rect x="91" y="51" width="118" height="112" rx="25" fill="#23359C" fill-opacity=".26" transform="translate(0 8)"/>
+  <rect x="91" y="51" width="118" height="112" rx="25" fill="url(#video)"/>
+  <path d="M137 84C134 82 131 84 131 88V128C131 132 134 134 137 132L169 112C172 110 172 106 169 104L137 84Z" fill="#2E43B7"/>
+  <path d="M185 193H203M194 184V202" stroke="#B5F8E3" stroke-width="6" stroke-linecap="round"/>
+</svg>

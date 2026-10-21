@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/logo.svg" alt="LiveUnpack · 拾帧 Logo" width="144" height="144">
+
 # LiveUnpack · 拾帧
 
 **把动态瞬间，原样带走。**
